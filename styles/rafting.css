@@ -1,0 +1,96 @@
+/* Root Variables */
+:root {
+    --primary-color: #479a68;
+    --secondary-color: #a0c892;
+    --text-color: #333;
+    --background-color: #f1f1f1;
+    --accent: 1px color: #95c6b1
+    --accent: 2px color: #bedcfe
+
+}
+
+/* General Styles */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary-color);
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Article */
+article {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+article img {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+/* Social Links */
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    width: 30px;
+    margin: 0 5px;
+}
